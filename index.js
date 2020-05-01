@@ -49,4 +49,5 @@ client.on('message', message => {
         .catch((error) => message.channel.send(`Cannot kick a member ${error}`))
     } 
 })
+
 client.login(token);
