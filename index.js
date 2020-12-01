@@ -53,3 +53,5 @@ client.on('message', message => {
 })
 // login importing token from configjson
 client.login(token);
+
+// Alteração para olá Matheus
